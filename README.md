@@ -90,7 +90,7 @@ Each MATLAB file contains the following synchronized variables:
 * Open **Google Colab**.
 * Upload the notebook **EMG_Analysis.ipynb**, or open it directly from your GitHub repository.
 * Install the required Python libraries in a Colab cell. Google Colab already includes most dependencies, but installing them ensures version compatibility.
-* Upload the **S1-A1-E1.mat** file to Google Colab, or mount Google Drive and load the dataset from Drive.
+* Upload the S1-A1-E1.mat file to Google Colab, or mount Google Drive and load the dataset from Drive.
 * Execute all cells in the notebook sequentially.
 
 The notebook performs the following steps:
