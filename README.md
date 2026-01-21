@@ -107,7 +107,6 @@ This project was developed and executed entirely on Google Colab. No local Pytho
 
 * Extend the analysis to all subjects (S1–S27).
 * Implement machine learning and deep learning classifiers for hand gesture recognition.
-* Perform EMG channel selection and feature optimization.
 * Develop real-time EMG-based gesture recognition systems.
 
 ---
