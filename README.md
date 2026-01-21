@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This repository presents a complete signal processing and feature extraction pipeline for **surface Electromyography (sEMG)–based hand movement analysis** using the **Ninapro DB1 dataset**. The objective of this project is to preprocess raw EMG signals, extract meaningful features, and prepare a clean dataset suitable for **myoelectric control and machine learning–based hand gesture classification**.
+This repository presents a complete signal processing and feature extraction pipeline for surface Electromyography (sEMG)–based hand movement analysis using the Ninapro DB1 dataset. The objective of this project is to preprocess raw EMG signals, extract meaningful features, and prepare a clean dataset suitable for myoelectric control and machine learning–based hand gesture classification.
 
-The analysis focuses on the **S1-A1-E1.mat** file, which contains EMG recordings from **10 forearm electrodes** collected during **basic finger movement tasks**.
+The analysis focuses on the S1-A1-E1.mat file, which contains EMG recordings from 10 forearm electrodes collected during basic finger movement tasks.
 
 ## Background
 
@@ -15,7 +15,7 @@ sEMG-based hand movement recognition is widely used in:
 * Human–computer interaction
 * Assistive robotic systems
 
-The Ninapro dataset is a benchmark dataset in this domain. This project aims to provide a **clear, reproducible, and well-documented workflow** for EMG signal analysis that can be easily extended for classification tasks.
+The Ninapro dataset is a benchmark dataset in this domain. This project aims to provide a clear, and well-documented workflow for EMG signal analysis that can be easily extended for classification tasks.
 
 ## Dataset Description
 
@@ -90,7 +90,7 @@ Each MATLAB file contains the following synchronized variables:
 * Open **Google Colab**.
 * Upload the notebook **EMG_Analysis.ipynb**, or open it directly from your GitHub repository.
 * Install the required Python libraries in a Colab cell. Google Colab already includes most dependencies, but installing them ensures version compatibility.
-* Upload the **S1-A1-E1.mat** file to Google Colab, **or** mount Google Drive and load the dataset from Drive.
+* Upload the **S1-A1-E1.mat** file to Google Colab, or mount Google Drive and load the dataset from Drive.
 * Execute all cells in the notebook sequentially.
 
 The notebook performs the following steps:
@@ -100,7 +100,7 @@ The notebook performs the following steps:
 * Feature extraction
 * Visualization and analysis
 
-This project was **developed and executed entirely on Google Colab**. No local Python installation is required, and the workflow is fully reproducible in cloud-based environments.
+This project was developed and executed entirely on Google Colab. No local Python installation is required, and the workflow is fully reproducible in cloud-based environments.
 
 
 ## Future Work
