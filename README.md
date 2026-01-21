@@ -88,39 +88,32 @@ Each MATLAB file contains the following synchronized variables:
 
 ## How to Run
 
-* Open Google Colab
-* Upload the notebook `EMG_Analysis.ipynb`
-  or upload the notebook directly from your GitHub repository
+* Open **Google Colab**.
+* Upload the notebook **EMG_Analysis.ipynb**, or open it directly from your GitHub repository.
+* Install the required Python libraries in a Colab cell. Google Colab already includes most dependencies, but installing them ensures version compatibility.
+* Upload the **S1-A1-E1.mat** file to Google Colab, **or** mount Google Drive and load the dataset from Drive.
+* Execute all cells in the notebook sequentially.
 
-Install Required Python Libraries:
+The notebook performs the following steps:
 
-Run the following command in a Colab cell to install all required dependencies:
+* EMG signal loading
+* Signal preprocessing and filtering
+* Feature extraction
+* Visualization and analysis
 
-```python
-!pip install numpy scipy matplotlib pandas pywavelets scikit-learn
+This project was **developed and executed entirely on Google Colab**. No local Python installation is required, and the workflow is fully reproducible in cloud-based environments.
 
-* Upload the `S1-A1-E1.mat` file to Colab
-  **OR**
-* Mount Google Drive and load the dataset from Drive
-* Execute all cells sequentially
-* The notebook will perform:
-
-  * EMG signal loading
-  * Preprocessing and filtering
-  * Feature extraction
-  * Visualization and analysis
-
-The project was developed and executed entirely on Google Colab. No local Python installation is required. The workflow is fully reproducible on cloud-based environments
 
 ## Future Work
 
-* Extend analysis to all subjects (S1–S27).
-* Implement machine learning and deep learning classifiers.
+* Extend the analysis to all subjects (S1–S27).
+* Implement machine learning and deep learning classifiers for hand gesture recognition.
 * Perform EMG channel selection and feature optimization.
 * Develop real-time EMG-based gesture recognition systems.
+
+---
 
 ## References
 
 1. Atzori et al., *Characterization of a Benchmark Database for Myoelectric Movement Classification*, IEEE Transactions on Neural Systems and Rehabilitation Engineering, 2014.
 2. Gijsberts et al., *Electromyography data for non-invasive naturally-controlled robotic hand prostheses*, Scientific Data, 2014.
-
