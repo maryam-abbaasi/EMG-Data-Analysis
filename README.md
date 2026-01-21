@@ -47,7 +47,7 @@ Each MATLAB file contains the following synchronized variables:
 
 ### Data Loading
 
-* MATLAB `.mat` files were loaded using Python.
+* MATLAB .mat files were loaded using Python.
 * EMG signals and movement labels were extracted for analysis.
 
 ### Signal Preprocessing
@@ -82,7 +82,7 @@ Each MATLAB file contains the following synchronized variables:
 
 * EMG signals were successfully filtered and denoised.
 * Time-domain, frequency-domain, and time–frequency features were extracted.
-* A structured dataset suitable for **machine learning–based hand gesture classification** was prepared.
+* A structured dataset suitable for machine learning–based hand gesture classification was prepared.
 
 
 ## How to Run
