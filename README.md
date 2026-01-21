@@ -19,11 +19,11 @@ The Ninapro dataset is a benchmark dataset in this domain. This project aims to 
 
 ## Dataset Description
 
-**Dataset Name:** Ninapro (Non-Invasive Adaptive Prosthetics)
-**Database:** DB1
-**Subjects:** 27 healthy individuals
-**Electrodes:** 10 Otto Bock MyoBock 13E200 sEMG electrodes
-**Movements:** 52 hand gestures plus rest position
+* **Dataset Name:** Ninapro (Non-Invasive Adaptive Prosthetics)
+* **Database:** DB1
+* **Subjects:** 27 healthy individuals
+* **Electrodes:** 10 Otto Bock MyoBock 13E200 sEMG electrodes
+* **Movements:** 52 hand gestures plus rest position
 
 ### Exercises
 
@@ -76,7 +76,7 @@ Each MATLAB file contains the following synchronized variables:
 
 * Raw and filtered EMG signal plots
 * FFT magnitude plots
-* Spectrograms and wavelet scalograms
+* Wavelet spectrograms 
 
 ## Results
 
