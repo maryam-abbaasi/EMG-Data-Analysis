@@ -1,4 +1,4 @@
-# EMG Hand Movement Analysis using Ninapro Dataset (DB1)
+# sEMG-Based Hand Movement Analysis on the Ninapro DB1 Dataset
 
 ## Project Overview
 
@@ -6,7 +6,7 @@ This repository presents a complete signal processing and feature extraction pip
 
 The analysis focuses on the **S1-A1-E1.mat** file, which contains EMG recordings from **10 forearm electrodes** collected during **basic finger movement tasks**.
 
-## Motivation
+## Background
 
 sEMG-based hand movement recognition is widely used in:
 
@@ -35,8 +35,7 @@ The Ninapro dataset is a benchmark dataset in this domain. This project aims to 
 
 Each MATLAB file contains the following synchronized variables:
 
-* **Subject:** Subject identifier
-* **Exercise:** Exercise number
+* **Subject:** Subject ID = 1
 * **Emg (10 channels):** sEMG signals recorded from the forearm
 * **Glove (22 channels):** Raw Cyberglove sensor data
 * **Stimulus:** Movement label shown to the subject
